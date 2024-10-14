@@ -20,5 +20,12 @@
 }
 
 /* ---------------------------------------------------- */
-
-
+.kontejner {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .ctverecek {
+        flex-basis: 30%;
+        flex-shrink: 0;
+        flex-grow: 1;
+    }
