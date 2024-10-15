@@ -18,5 +18,31 @@ nav {
 /* -------------------------------------------- */
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
-
-
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav {
+	flex-basis: 20%;
+}
+header,
+footer {
+	height: 100px;
+}
+.main {
+	flex-basis: 100%;
+}
+.inside {
+	display: flex;
+}
+.podsebou {
+	flex-direction: column;
+	flex-grow: 1;
+}
+aside {
+	flex-basis: 20%;
+}
+article {
+	height: 300px;
+}
